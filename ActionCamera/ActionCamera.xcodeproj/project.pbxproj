@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83ADA8E4183CC94600B5598A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8E3183CC94600B5598A /* Foundation.framework */; };
+		83ADA8EA183CC94600B5598A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83ADA8E8183CC94600B5598A /* InfoPlist.strings */; };
+		83ADA8F2183CC94600B5598A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8F1183CC94600B5598A /* XCTest.framework */; };
+		83ADA8F3183CC94600B5598A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8E3183CC94600B5598A /* Foundation.framework */; };
+		83ADA8F5183CC94600B5598A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8F4183CC94600B5598A /* UIKit.framework */; };
+		83ADA8FA183CC94600B5598A /* ActionCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8E0183CC94600B5598A /* ActionCamera.framework */; };
+		83ADA900183CC94600B5598A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83ADA8FE183CC94600B5598A /* InfoPlist.strings */; };
+		83ADA902183CC94600B5598A /* ActionCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ADA901183CC94600B5598A /* ActionCameraTests.m */; };
+		83ADA910183CC95200B5598A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8E3183CC94600B5598A /* Foundation.framework */; };
+		83ADA912183CC95200B5598A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA911183CC95200B5598A /* CoreGraphics.framework */; };
+		83ADA913183CC95200B5598A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8F4183CC94600B5598A /* UIKit.framework */; };
+		83ADA919183CC95200B5598A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83ADA917183CC95200B5598A /* InfoPlist.strings */; };
+		83ADA91B183CC95200B5598A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ADA91A183CC95200B5598A /* main.m */; };
+		83ADA91F183CC95200B5598A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ADA91E183CC95200B5598A /* AppDelegate.m */; };
+		83ADA922183CC95200B5598A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ADA920183CC95200B5598A /* Main_iPhone.storyboard */; };
+		83ADA925183CC95200B5598A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ADA923183CC95200B5598A /* Main_iPad.storyboard */; };
+		83ADA928183CC95200B5598A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ADA927183CC95200B5598A /* ViewController.m */; };
+		83ADA92A183CC95200B5598A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ADA929183CC95200B5598A /* Images.xcassets */; };
+		83ADA930183CC95200B5598A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8F1183CC94600B5598A /* XCTest.framework */; };
+		83ADA931183CC95200B5598A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8E3183CC94600B5598A /* Foundation.framework */; };
+		83ADA932183CC95200B5598A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83ADA8F4183CC94600B5598A /* UIKit.framework */; };
+		83ADA93A183CC95200B5598A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83ADA938183CC95200B5598A /* InfoPlist.strings */; };
+		83ADA93C183CC95200B5598A /* ActionCameraSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ADA93B183CC95200B5598A /* ActionCameraSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83ADA8F6183CC94600B5598A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83ADA8D4183CC94600B5598A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83ADA8DF183CC94600B5598A;
+			remoteInfo = ActionCamera;
+		};
+		83ADA8F8183CC94600B5598A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83ADA8D4183CC94600B5598A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83ADA8DF183CC94600B5598A;
+			remoteInfo = ActionCamera;
+		};
+		83ADA933183CC95200B5598A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83ADA8D4183CC94600B5598A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83ADA90E183CC95200B5598A;
+			remoteInfo = ActionCameraSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83ADA8E0183CC94600B5598A /* ActionCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = ActionCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ADA8E3183CC94600B5598A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83ADA8E7183CC94600B5598A /* ActionCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionCamera-Info.plist"; sourceTree = "<group>"; };
+		83ADA8E9183CC94600B5598A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83ADA8EB183CC94600B5598A /* ActionCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionCamera-Prefix.pch"; sourceTree = "<group>"; };
+		83ADA8F0183CC94600B5598A /* ActionCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ADA8F1183CC94600B5598A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		83ADA8F4183CC94600B5598A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		83ADA8FD183CC94600B5598A /* ActionCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionCameraTests-Info.plist"; sourceTree = "<group>"; };
+		83ADA8FF183CC94600B5598A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83ADA901183CC94600B5598A /* ActionCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionCameraTests.m; sourceTree = "<group>"; };
+		83ADA90F183CC95200B5598A /* ActionCameraSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionCameraSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ADA911183CC95200B5598A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83ADA916183CC95200B5598A /* ActionCameraSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionCameraSample-Info.plist"; sourceTree = "<group>"; };
+		83ADA918183CC95200B5598A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83ADA91A183CC95200B5598A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83ADA91C183CC95200B5598A /* ActionCameraSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionCameraSample-Prefix.pch"; sourceTree = "<group>"; };
+		83ADA91D183CC95200B5598A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83ADA91E183CC95200B5598A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83ADA921183CC95200B5598A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		83ADA924183CC95200B5598A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		83ADA926183CC95200B5598A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83ADA927183CC95200B5598A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83ADA929183CC95200B5598A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83ADA92F183CC95200B5598A /* ActionCameraSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionCameraSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ADA937183CC95200B5598A /* ActionCameraSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionCameraSampleTests-Info.plist"; sourceTree = "<group>"; };
+		83ADA939183CC95200B5598A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83ADA93B183CC95200B5598A /* ActionCameraSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionCameraSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83ADA8DA183CC94600B5598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA8E4183CC94600B5598A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA8ED183CC94600B5598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA8F2183CC94600B5598A /* XCTest.framework in Frameworks */,
+				83ADA8FA183CC94600B5598A /* ActionCamera.framework in Frameworks */,
+				83ADA8F5183CC94600B5598A /* UIKit.framework in Frameworks */,
+				83ADA8F3183CC94600B5598A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA90C183CC95200B5598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA912183CC95200B5598A /* CoreGraphics.framework in Frameworks */,
+				83ADA913183CC95200B5598A /* UIKit.framework in Frameworks */,
+				83ADA910183CC95200B5598A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA92C183CC95200B5598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA930183CC95200B5598A /* XCTest.framework in Frameworks */,
+				83ADA932183CC95200B5598A /* UIKit.framework in Frameworks */,
+				83ADA931183CC95200B5598A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83ADA8D3183CC94600B5598A = {
+			isa = PBXGroup;
+			children = (
+				83ADA8E5183CC94600B5598A /* ActionCamera */,
+				83ADA914183CC95200B5598A /* ActionCameraSample */,
+				83ADA8FB183CC94600B5598A /* ActionCameraTests */,
+				83ADA935183CC95200B5598A /* ActionCameraSampleTests */,
+				83ADA8E2183CC94600B5598A /* Frameworks */,
+				83ADA8E1183CC94600B5598A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83ADA8E1183CC94600B5598A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA8E0183CC94600B5598A /* ActionCamera.framework */,
+				83ADA8F0183CC94600B5598A /* ActionCameraTests.xctest */,
+				83ADA90F183CC95200B5598A /* ActionCameraSample.app */,
+				83ADA92F183CC95200B5598A /* ActionCameraSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83ADA8E2183CC94600B5598A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA8E3183CC94600B5598A /* Foundation.framework */,
+				83ADA8F1183CC94600B5598A /* XCTest.framework */,
+				83ADA8F4183CC94600B5598A /* UIKit.framework */,
+				83ADA911183CC95200B5598A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83ADA8E5183CC94600B5598A /* ActionCamera */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA8E6183CC94600B5598A /* Supporting Files */,
+			);
+			path = ActionCamera;
+			sourceTree = "<group>";
+		};
+		83ADA8E6183CC94600B5598A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA8E7183CC94600B5598A /* ActionCamera-Info.plist */,
+				83ADA8E8183CC94600B5598A /* InfoPlist.strings */,
+				83ADA8EB183CC94600B5598A /* ActionCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83ADA8FB183CC94600B5598A /* ActionCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA901183CC94600B5598A /* ActionCameraTests.m */,
+				83ADA8FC183CC94600B5598A /* Supporting Files */,
+			);
+			path = ActionCameraTests;
+			sourceTree = "<group>";
+		};
+		83ADA8FC183CC94600B5598A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA8FD183CC94600B5598A /* ActionCameraTests-Info.plist */,
+				83ADA8FE183CC94600B5598A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83ADA914183CC95200B5598A /* ActionCameraSample */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA91D183CC95200B5598A /* AppDelegate.h */,
+				83ADA91E183CC95200B5598A /* AppDelegate.m */,
+				83ADA920183CC95200B5598A /* Main_iPhone.storyboard */,
+				83ADA923183CC95200B5598A /* Main_iPad.storyboard */,
+				83ADA926183CC95200B5598A /* ViewController.h */,
+				83ADA927183CC95200B5598A /* ViewController.m */,
+				83ADA929183CC95200B5598A /* Images.xcassets */,
+				83ADA915183CC95200B5598A /* Supporting Files */,
+			);
+			path = ActionCameraSample;
+			sourceTree = "<group>";
+		};
+		83ADA915183CC95200B5598A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA916183CC95200B5598A /* ActionCameraSample-Info.plist */,
+				83ADA917183CC95200B5598A /* InfoPlist.strings */,
+				83ADA91A183CC95200B5598A /* main.m */,
+				83ADA91C183CC95200B5598A /* ActionCameraSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83ADA935183CC95200B5598A /* ActionCameraSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA93B183CC95200B5598A /* ActionCameraSampleTests.m */,
+				83ADA936183CC95200B5598A /* Supporting Files */,
+			);
+			path = ActionCameraSampleTests;
+			sourceTree = "<group>";
+		};
+		83ADA936183CC95200B5598A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA937183CC95200B5598A /* ActionCameraSampleTests-Info.plist */,
+				83ADA938183CC95200B5598A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83ADA8DB183CC94600B5598A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83ADA8DF183CC94600B5598A /* ActionCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83ADA905183CC94600B5598A /* Build configuration list for PBXNativeTarget "ActionCamera" */;
+			buildPhases = (
+				83ADA8D8183CC94600B5598A /* ShellScript */,
+				83ADA8D9183CC94600B5598A /* Sources */,
+				83ADA8DA183CC94600B5598A /* Frameworks */,
+				83ADA8DB183CC94600B5598A /* Headers */,
+				83ADA8DC183CC94600B5598A /* Resources */,
+				83ADA8DD183CC94600B5598A /* ShellScript */,
+				83ADA8DE183CC94600B5598A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionCamera;
+			productName = ActionCamera;
+			productReference = 83ADA8E0183CC94600B5598A /* ActionCamera.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+		83ADA8EF183CC94600B5598A /* ActionCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83ADA908183CC94600B5598A /* Build configuration list for PBXNativeTarget "ActionCameraTests" */;
+			buildPhases = (
+				83ADA8EC183CC94600B5598A /* Sources */,
+				83ADA8ED183CC94600B5598A /* Frameworks */,
+				83ADA8EE183CC94600B5598A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83ADA8F7183CC94600B5598A /* PBXTargetDependency */,
+				83ADA8F9183CC94600B5598A /* PBXTargetDependency */,
+			);
+			name = ActionCameraTests;
+			productName = ActionCameraTests;
+			productReference = 83ADA8F0183CC94600B5598A /* ActionCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83ADA90E183CC95200B5598A /* ActionCameraSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83ADA93D183CC95200B5598A /* Build configuration list for PBXNativeTarget "ActionCameraSample" */;
+			buildPhases = (
+				83ADA90B183CC95200B5598A /* Sources */,
+				83ADA90C183CC95200B5598A /* Frameworks */,
+				83ADA90D183CC95200B5598A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionCameraSample;
+			productName = ActionCameraSample;
+			productReference = 83ADA90F183CC95200B5598A /* ActionCameraSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83ADA92E183CC95200B5598A /* ActionCameraSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83ADA940183CC95200B5598A /* Build configuration list for PBXNativeTarget "ActionCameraSampleTests" */;
+			buildPhases = (
+				83ADA92B183CC95200B5598A /* Sources */,
+				83ADA92C183CC95200B5598A /* Frameworks */,
+				83ADA92D183CC95200B5598A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83ADA934183CC95200B5598A /* PBXTargetDependency */,
+			);
+			name = ActionCameraSampleTests;
+			productName = ActionCameraSampleTests;
+			productReference = 83ADA92F183CC95200B5598A /* ActionCameraSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83ADA8D4183CC94600B5598A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Motrr;
+				TargetAttributes = {
+					83ADA8EF183CC94600B5598A = {
+						TestTargetID = 83ADA8DF183CC94600B5598A;
+					};
+					83ADA92E183CC95200B5598A = {
+						TestTargetID = 83ADA8DF183CC94600B5598A;
+					};
+				};
+			};
+			buildConfigurationList = 83ADA8D7183CC94600B5598A /* Build configuration list for PBXProject "ActionCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83ADA8D3183CC94600B5598A;
+			productRefGroup = 83ADA8E1183CC94600B5598A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83ADA8DF183CC94600B5598A /* ActionCamera */,
+				83ADA8EF183CC94600B5598A /* ActionCameraTests */,
+				83ADA90E183CC95200B5598A /* ActionCameraSample */,
+				83ADA92E183CC95200B5598A /* ActionCameraSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83ADA8DC183CC94600B5598A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA8EA183CC94600B5598A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA8EE183CC94600B5598A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA900183CC94600B5598A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA90D183CC95200B5598A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA925183CC95200B5598A /* Main_iPad.storyboard in Resources */,
+				83ADA92A183CC95200B5598A /* Images.xcassets in Resources */,
+				83ADA922183CC95200B5598A /* Main_iPhone.storyboard in Resources */,
+				83ADA919183CC95200B5598A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA92D183CC95200B5598A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA93A183CC95200B5598A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83ADA8D8183CC94600B5598A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		83ADA8DD183CC94600B5598A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		83ADA8DE183CC94600B5598A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \necho \"Xcode version: $XCODE_VERSION_MAJOR\"\n\nif [[ \"$XCODE_VERSION_MAJOR\" == \"0500\" ]]\nthen\n    echo \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nelse\n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nfi \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83ADA8D9183CC94600B5598A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA8EC183CC94600B5598A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA902183CC94600B5598A /* ActionCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA90B183CC95200B5598A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA928183CC95200B5598A /* ViewController.m in Sources */,
+				83ADA91F183CC95200B5598A /* AppDelegate.m in Sources */,
+				83ADA91B183CC95200B5598A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ADA92B183CC95200B5598A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ADA93C183CC95200B5598A /* ActionCameraSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83ADA8F7183CC94600B5598A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83ADA8DF183CC94600B5598A /* ActionCamera */;
+			targetProxy = 83ADA8F6183CC94600B5598A /* PBXContainerItemProxy */;
+		};
+		83ADA8F9183CC94600B5598A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83ADA8DF183CC94600B5598A /* ActionCamera */;
+			targetProxy = 83ADA8F8183CC94600B5598A /* PBXContainerItemProxy */;
+		};
+		83ADA934183CC95200B5598A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83ADA90E183CC95200B5598A /* ActionCameraSample */;
+			targetProxy = 83ADA933183CC95200B5598A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83ADA8E8183CC94600B5598A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ADA8E9183CC94600B5598A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83ADA8FE183CC94600B5598A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ADA8FF183CC94600B5598A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83ADA917183CC95200B5598A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ADA918183CC95200B5598A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83ADA920183CC95200B5598A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ADA921183CC95200B5598A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		83ADA923183CC95200B5598A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ADA924183CC95200B5598A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		83ADA938183CC95200B5598A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ADA939183CC95200B5598A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83ADA903183CC94600B5598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83ADA904183CC94600B5598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83ADA906183CC94600B5598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCamera/ActionCamera-Prefix.pch";
+				INFOPLIST_FILE = "ActionCamera/ActionCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		83ADA907183CC94600B5598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCamera/ActionCamera-Prefix.pch";
+				INFOPLIST_FILE = "ActionCamera/ActionCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		83ADA909183CC94600B5598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActionCamera.framework/Versions/A/ActionCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCamera/ActionCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ActionCameraTests/ActionCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		83ADA90A183CC94600B5598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActionCamera.framework/Versions/A/ActionCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCamera/ActionCamera-Prefix.pch";
+				INFOPLIST_FILE = "ActionCameraTests/ActionCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		83ADA93E183CC95200B5598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCameraSample/ActionCameraSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ActionCameraSample/ActionCameraSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83ADA93F183CC95200B5598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCameraSample/ActionCameraSample-Prefix.pch";
+				INFOPLIST_FILE = "ActionCameraSample/ActionCameraSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83ADA941183CC95200B5598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActionCamera.framework/Versions/A/ActionCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCameraSample/ActionCameraSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ActionCameraSampleTests/ActionCameraSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		83ADA942183CC95200B5598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActionCamera.framework/Versions/A/ActionCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionCameraSample/ActionCameraSample-Prefix.pch";
+				INFOPLIST_FILE = "ActionCameraSampleTests/ActionCameraSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83ADA8D7183CC94600B5598A /* Build configuration list for PBXProject "ActionCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ADA903183CC94600B5598A /* Debug */,
+				83ADA904183CC94600B5598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83ADA905183CC94600B5598A /* Build configuration list for PBXNativeTarget "ActionCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ADA906183CC94600B5598A /* Debug */,
+				83ADA907183CC94600B5598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83ADA908183CC94600B5598A /* Build configuration list for PBXNativeTarget "ActionCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ADA909183CC94600B5598A /* Debug */,
+				83ADA90A183CC94600B5598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83ADA93D183CC95200B5598A /* Build configuration list for PBXNativeTarget "ActionCameraSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ADA93E183CC95200B5598A /* Debug */,
+				83ADA93F183CC95200B5598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83ADA940183CC95200B5598A /* Build configuration list for PBXNativeTarget "ActionCameraSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ADA941183CC95200B5598A /* Debug */,
+				83ADA942183CC95200B5598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83ADA8D4183CC94600B5598A /* Project object */;
+}
